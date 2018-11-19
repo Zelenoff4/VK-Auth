@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TestAuth</title>
+
+</head>
+<body>
+
+
+<div id="vk_auth" align="center">
+    <button id="authButton">Авторизоваться</button>
+    <script>
+        function click() {
+            //window.open("../authorization");
+            //window.location.href = "../authorization"
+            window.location.href = "https://oauth.vk.com/authorize?client_id=6750428$display=popup&redirect_uri=https://vkauth.nyc3.digitaloceanspaces.com/templates/index/authorization.html&scope=friends&response_type=token&v=5.87";
+            //window.location.href = "../authorization"
+
+        }
+        authButton.onclick = click;
+    </script>
+</div>
+
+</body>
+</html>

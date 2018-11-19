@@ -1,0 +1,10 @@
+{% extends "index/wrapper.html" %}
+{% block content %}
+    <h><b>Авторизовавшийся пользователь</b></h>
+    <p>{{ loggedUser }}</p>
+    <h><b>5 случайных друзей</b></h>
+    <p>{% for i in items %}
+        {{ i }}
+        <br>
+    {% endfor %}</p>
+{% endblock %}
