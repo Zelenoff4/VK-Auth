@@ -4,25 +4,10 @@
     <meta charset="UTF-8">
     <title>Auth</title>
 </head>
-<body>
 
-<form action="/login" method="post"> {% csrf_token %}
-    <h>Авторизация в VK для тестового задания от WEBIM</h>
-    {% block content %}
-        <br>{{ msg }}
-    {% endblock %}
-    <div>
-        <label>Логин:</label> <input type="text" name="username">
-    </div>
+<body id="main">
+<h>REDIRECTED</h>
 
-    <div>
-     <label>Пароль:</label> <input type="password" name="password">
-    </div>
-
-    <div>
-        <label>&nbsp;</label><input type="submit" value="Авторизоваться">
-    </div>
-  </form>
 
 </body>
 </html>

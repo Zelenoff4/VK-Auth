@@ -23,11 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'nth6*gau$y_4crli@hye&13oc$xmq%q38+$f4v4gxch6sk^r1u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['https://vkauth.nyc3.digitaloceanspaces.com/',
-                '139.59.142.85'
-                 ]
+ALLOWED_HOSTS = ['139.59.142.85']
 
 
 # Application definition

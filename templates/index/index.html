@@ -12,10 +12,7 @@
     <button id="authButton">Авторизоваться</button>
     <script>
         function click() {
-            //window.open("../authorization");
-            //window.location.href = "../authorization"
-            window.location.href = "https://oauth.vk.com/authorize?client_id=6750428$display=popup&redirect_uri=https://vkauth.nyc3.digitaloceanspaces.com/templates/index/authorization.html&scope=friends&response_type=token&v=5.87";
-            //window.location.href = "../authorization"
+            window.location.href = "https://oauth.vk.com/authorize?client_id=6750428$display=popup&redirect_uri=http://139.59.142.85:8000/authorization&scope=friends&response_type=code&v=5.87";
 
         }
         authButton.onclick = click;
